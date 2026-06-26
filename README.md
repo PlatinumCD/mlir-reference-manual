@@ -1,5 +1,7 @@
 # MLIR Reference Manual
 
+![MLIR Reference Manual banner](assets/images/mlir-reference-manual-banner.png)
+
 [**MLIR Reference Manual**](https://www.cameronfdurbin.com/mlir-reference-manual/)
 
 A beginner-focused Quarto book about MLIR dialects, operations,
@@ -16,6 +18,7 @@ StableHLO, IREE, CIRCT, IMEX, and DaCe.
 ├── _quarto.yml
 ├── index.qmd
 ├── chapters/
+├── assets/images/
 ├── styles.css
 ├── README.md
 └── .github/workflows/pages.yml
