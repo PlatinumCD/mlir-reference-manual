@@ -1,0 +1,29 @@
+:root {
+  --mlir-accent: #315c9b;
+}
+
+body {
+  line-height: 1.55;
+}
+
+code {
+  white-space: break-spaces;
+}
+
+pre code {
+  white-space: pre;
+}
+
+.sidebar-title {
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0;
+}
+
+table {
+  font-size: 0.95rem;
+}

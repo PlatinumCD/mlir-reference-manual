@@ -1,0 +1,59 @@
+# About
+
+**GitHub:** https://github.com/PlatinumCD/mlir-reference-manual
+
+This manual is a beginner-focused guide to MLIR dialects, operations,
+transformations, conversions, and their roles in compiler pipelines. It is
+written for readers who want a practical map of MLIR: what each dialect means,
+when it matters, what operations it provides, what transformations and
+conversions are associated with it, and how it fits into a larger compiler
+flow.
+
+The manual covers upstream MLIR dialects first, then expands into third-party
+MLIR ecosystems such as ONNX-MLIR, torch-mlir, StableHLO, IREE, CIRCT, IMEX,
+and DaCe. The goal is not only to list operations, but to explain why each
+dialect exists and how it participates in real compiler pipelines.
+
+## About the Author
+
+**Name:** Cameron Durbin
+**Email:** cfd@uoregon.edu
+
+I'm a 4th-year PhD candidate at the **University of Oregon** studying
+compiler infrastructure, MLIR, and machine-learning systems. I'm actively
+looking for internships related to MLIR, compiler engineering, intermediate
+representations, and ML systems work. I'm eager to contribute to teams
+building practical compiler infrastructure, model compilation pipelines, and
+developer tools around ML and IR systems.
+
+## Authorship Note
+
+This manual was written entirely by AI from local repository inspection,
+project context, and structured prompts. It should be treated as a learning
+resource and reference map, not as a replacement for the official source code,
+specifications, or project documentation. When exact behavior matters, verify
+the relevant operation definitions, verifier rules, pass implementations, and
+tests in the source repository.
+
+## Reading Path
+
+1. Start with [Introduction](introduction.md) and [What Is MLIR?](what-is-mlir.md).
+2. Learn core IR structure: `builtin`, `func`, `cf`, `scf`, and `index`.
+3. Read basic computation: `arith`, `math`, `complex`, and `ub`.
+4. Move into tensor, shape, and memory modeling: `tensor`, `memref`,
+   `bufferization`, `shape`, `sparse_tensor`, `quant`, `ptr`, and `dlti`.
+5. Study structured computation and optimization: `affine`, `linalg`, and
+   `vector`.
+6. Read ML and model-level IR: `tosa` and `ml_program`.
+7. Explore parallelism, accelerators, and distributed compute: `async`, `gpu`,
+   `acc`, `omp`, `mpi`, and `shard`.
+8. Learn rewrite, transform, and metaprogramming dialects: `transform`, `pdl`,
+   `pdl_interp`, `irdl`, and `smt`.
+9. Follow target and architecture-specific lowering: `llvm`, `spirv`, `emitc`,
+   `wasmssa`, GPU vendor dialects, and CPU architecture dialects.
+10. Read [The External MLIR Ecosystem](external-ecosystem.md) before entering
+    third-party dialects.
+11. Choose an ecosystem path: frontend/model dialects, IREE runtime compiler
+    dialects, CIRCT hardware dialects, or array and data-centric extensions.
+
+

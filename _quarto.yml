@@ -1,0 +1,177 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "MLIR Reference Manual"
+  subtitle: "A Beginner's Guide"
+  author: "Cameron Durbin"
+  search: true
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - introduction.md
+    - what-is-mlir.md
+    - part: "Core IR Structure"
+      chapters:
+        - builtin.md
+        - func.md
+        - cf.md
+        - scf.md
+        - index-dialect.md
+    - part: "Basic Computation"
+      chapters:
+        - arith.md
+        - math.md
+        - complex.md
+        - ub.md
+    - part: "Tensor, Shape, and Memory"
+      chapters:
+        - tensor.md
+        - memref.md
+        - bufferization.md
+        - shape.md
+        - sparse_tensor.md
+        - quant.md
+        - ptr.md
+        - dlti.md
+    - part: "Structured Computation and Optimization"
+      chapters:
+        - affine.md
+        - linalg.md
+        - vector.md
+    - part: "ML and Model-Level IR"
+      chapters:
+        - tosa.md
+        - ml_program.md
+    - part: "Parallelism, Accelerators, and Distributed Compute"
+      chapters:
+        - async.md
+        - gpu.md
+        - acc.md
+        - omp.md
+        - mpi.md
+        - shard.md
+    - part: "Rewrite, Transform, and Metaprogramming"
+      chapters:
+        - transform.md
+        - pdl.md
+        - pdl_interp.md
+        - irdl.md
+        - smt.md
+    - part: "Target and Lowering Dialects"
+      chapters:
+        - llvm.md
+        - spirv.md
+        - emitc.md
+        - wasmssa.md
+    - part: "GPU Vendor and Hardware Dialects"
+      chapters:
+        - nvgpu.md
+        - nvvm.md
+        - amdgpu.md
+        - rocdl.md
+        - xegpu.md
+        - xevm.md
+    - part: "CPU and Architecture-Specific Dialects"
+      chapters:
+        - x86.md
+        - arm_neon.md
+        - arm_sve.md
+        - arm_sme.md
+    - part: "Third-Party MLIR Ecosystem"
+      chapters:
+        - external-ecosystem.md
+    - part: "Frontend and Model Dialects"
+      chapters:
+        - onnx-mlir-onnx.md
+        - onnx-mlir-krnl.md
+        - onnx-mlir-zhigh.md
+        - onnx-mlir-zlow.md
+        - torch-mlir-torch.md
+        - torch-mlir-torch_c.md
+        - torch-mlir-tm_tensor.md
+        - stablehlo-stablehlo.md
+        - stablehlo-chlo.md
+        - stablehlo-vhlo.md
+        - stablehlo-interpreter.md
+    - part: "IREE Compiler and Runtime Dialects"
+      chapters:
+        - iree-flow.md
+        - iree-stream.md
+        - iree-hal.md
+        - iree-vm.md
+        - iree-util.md
+        - iree-iree_codegen.md
+        - iree-iree_gpu.md
+        - iree-iree_cpu.md
+        - iree-iree_encoding.md
+        - iree-iree_linalg_ext.md
+        - iree-iree_tensor_ext.md
+        - iree-iree_vector_ext.md
+        - iree-iree_map.md
+        - iree-rocm.md
+        - iree-vmvx.md
+        - iree-pcf.md
+        - iree-check.md
+        - iree-hal_inline.md
+        - iree-hal_loader.md
+        - iree-io_parameters.md
+    - part: "Hardware and Circuit Dialects"
+      chapters:
+        - circt-hw.md
+        - circt-comb.md
+        - circt-seq.md
+        - circt-sv.md
+        - circt-firrtl.md
+        - circt-chirrtl.md
+        - circt-moore.md
+        - circt-llhd.md
+        - circt-calyx.md
+        - circt-handshake.md
+        - circt-pipeline.md
+        - circt-datapath.md
+        - circt-fsm.md
+        - circt-verif.md
+        - circt-sim.md
+        - circt-interop.md
+        - circt-systemc.md
+        - circt-esi.md
+        - circt-msft.md
+        - circt-om.md
+        - circt-dc.md
+        - circt-dbg.md
+        - circt-arc.md
+        - circt-ltl.md
+        - circt-rtg.md
+        - circt-ssp.md
+        - circt-synth.md
+        - circt-emit.md
+        - circt-hwarith.md
+        - circt-kanagawa.md
+        - circt-loopschedule.md
+    - part: "Array, Data-Centric, and HPC Extensions"
+      chapters:
+        - imex-ndarray.md
+        - imex-region.md
+        - imex-distruntime.md
+        - imex-gpux.md
+        - mlir-dace-sdfg.md
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+
+execute:
+  freeze: auto
+
+editor: source
