@@ -1,4 +1,4 @@
-# CIRCT LTL Dialect
+# CIRCT `ltl` Dialect
 
 The `ltl` dialect is CIRCT's dialect for Linear Temporal Logic, temporal
 sequences, and temporal properties. It is mainly used for hardware verification:

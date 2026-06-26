@@ -1,4 +1,4 @@
-# IREE Codegen Dialect
+# IREE `iree_codegen` Dialect
 
 The IREE `iree_codegen` dialect is the shared control dialect for IREE code generation. It does not model a user program by itself. Instead, it records the decisions that drive lowering from dispatch-level tensor code into CPU, GPU, SPIR-V, VMVX, or other backend-specific forms.
 

@@ -1,4 +1,4 @@
-# CIRCT Verif Dialect
+# CIRCT `verif` Dialect
 
 ## Beginner Summary
 

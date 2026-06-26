@@ -1,4 +1,4 @@
-# CIRCT SystemC Dialect
+# CIRCT `systemc` Dialect
 
 ## Beginner Summary
 

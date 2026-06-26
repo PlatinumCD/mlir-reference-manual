@@ -1,4 +1,4 @@
-# ONNX-MLIR ZHigh Dialect
+# ONNX-MLIR `zhigh` Dialect
 
 ## Beginner Summary
 

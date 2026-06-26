@@ -1,4 +1,4 @@
-# IREE check Dialect
+# IREE `check` Dialect
 
 The IREE `check` dialect is an assertion dialect for compiled IREE programs. It lets tests and validation modules say that a scalar, tensor, or HAL buffer view should have a particular value, then lowers those assertions into calls to IREE's optional runtime check module.
 

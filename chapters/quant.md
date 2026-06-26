@@ -1,4 +1,4 @@
-# Quant Dialect
+# `quant` Dialect
 
 ## Beginner Summary
 

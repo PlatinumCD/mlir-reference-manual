@@ -1,4 +1,4 @@
-# CIRCT SSP Dialect
+# CIRCT `ssp` Dialect
 
 ## Beginner Summary
 

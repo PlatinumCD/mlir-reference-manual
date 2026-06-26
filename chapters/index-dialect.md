@@ -1,4 +1,4 @@
-# Index Dialect
+# `index` Dialect
 
 ## Beginner Summary
 

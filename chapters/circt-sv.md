@@ -1,4 +1,4 @@
-# CIRCT SV Dialect
+# CIRCT `sv` Dialect
 
 The `sv` dialect is CIRCT's SystemVerilog-oriented dialect. It represents
 SystemVerilog-specific constructs in an AST-like form that can be mixed with

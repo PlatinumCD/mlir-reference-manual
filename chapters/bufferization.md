@@ -1,4 +1,4 @@
-# Bufferization Dialect
+# `bufferization` Dialect
 
 ## Beginner Summary
 

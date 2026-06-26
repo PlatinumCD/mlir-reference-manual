@@ -1,4 +1,4 @@
-# CIRCT Kanagawa Dialect
+# CIRCT `kanagawa` Dialect
 
 The CIRCT `kanagawa` dialect supports porting and eventually open-sourcing an internal hardware development language. It models a class-like hardware language with methods, member variables, static schedulable blocks, containers, ports, hierarchy paths, and a lowering flow toward CIRCT hardware IR.
 

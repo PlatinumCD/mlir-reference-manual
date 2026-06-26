@@ -1,4 +1,4 @@
-# Func Dialect
+# `func` Dialect
 
 ## Beginner Summary
 

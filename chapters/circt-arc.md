@@ -1,4 +1,4 @@
-# CIRCT Arc Dialect
+# CIRCT `arc` Dialect
 
 ## Beginner Summary
 

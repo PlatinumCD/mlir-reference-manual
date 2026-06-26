@@ -1,4 +1,4 @@
-# ONNX-MLIR Krnl Dialect
+# ONNX-MLIR `krnl` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# Sparse Tensor Dialect
+# `sparse_tensor` Dialect
 
 ## Beginner Summary
 

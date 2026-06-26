@@ -1,4 +1,4 @@
-# Tensor Dialect
+# `tensor` Dialect
 
 ## Beginner Summary
 

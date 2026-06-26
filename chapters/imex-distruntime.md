@@ -1,4 +1,4 @@
-# Intel IMEX DistRuntime Dialect
+# Intel IMEX `distruntime` Dialect
 
 The Intel IMEX `distruntime` dialect represents distributed-runtime operations for SPMD-style programs. It is meant to sit between higher-level distributed array semantics and lower-level runtime library calls.
 

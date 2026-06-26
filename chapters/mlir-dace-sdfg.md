@@ -1,4 +1,4 @@
-# MLIR-DaCe sdfg Dialect
+# MLIR-DaCe `sdfg` Dialect
 
 The MLIR-DaCe `sdfg` dialect represents Stateful DataFlow Graphs inside MLIR. An SDFG is a data-centric program representation: instead of making control flow the main structure and treating memory traffic as a consequence of instructions, it makes data movement, arrays, streams, states, and state transitions explicit.
 

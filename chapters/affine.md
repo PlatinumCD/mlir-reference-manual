@@ -1,4 +1,4 @@
-# Affine Dialect
+# `affine` Dialect
 
 ## Beginner Summary
 

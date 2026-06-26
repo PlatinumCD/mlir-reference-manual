@@ -1,4 +1,4 @@
-# Arm SVE Dialect
+# `arm_sve` Dialect
 
 ## Beginner Summary
 

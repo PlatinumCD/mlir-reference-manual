@@ -1,4 +1,4 @@
-# IREE Stream Dialect
+# IREE `stream` Dialect
 
 ## Beginner Summary
 

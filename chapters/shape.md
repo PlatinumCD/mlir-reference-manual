@@ -1,4 +1,4 @@
-# Shape Dialect
+# `shape` Dialect
 
 ## Beginner Summary
 

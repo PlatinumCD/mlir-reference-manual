@@ -1,4 +1,4 @@
-# CIRCT FSM Dialect
+# CIRCT `fsm` Dialect
 
 ## Beginner Summary
 

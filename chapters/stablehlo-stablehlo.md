@@ -1,4 +1,4 @@
-# StableHLO stablehlo Dialect
+# StableHLO `stablehlo` Dialect
 
 ## Beginner Summary
 

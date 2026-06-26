@@ -1,4 +1,4 @@
-# IREE HAL Inline Dialect
+# IREE `hal_inline` Dialect
 
 The IREE `hal_inline` dialect is a low-level module dialect for a restricted, in-process version of IREE's Hardware Abstraction Layer. It exists for configurations where the compiler wants ABI compatibility with HAL buffer and buffer view concepts, but does not want the full asynchronous, multi-device, queue-based HAL runtime model.
 

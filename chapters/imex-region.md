@@ -1,4 +1,4 @@
-# Intel IMEX Region Dialect
+# Intel IMEX `region` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# IREE TensorExt Dialect
+# IREE `iree_tensor_ext` Dialect
 
 The IREE `iree_tensor_ext` dialect contains tensor operations and types that IREE needs but that do not fit cleanly in the upstream MLIR `tensor` dialect. It is a compiler-internal dialect, not a frontend tensor library. Its operations appear when IREE is forming dispatches, moving tensors across dispatch boundaries, preserving shape information, calculating workgroup counts, or experimenting with sparse and ragged tensor layouts.
 

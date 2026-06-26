@@ -1,4 +1,4 @@
-# Async Dialect
+# `async` Dialect
 
 ## Beginner Summary
 

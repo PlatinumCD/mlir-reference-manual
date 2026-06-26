@@ -1,4 +1,4 @@
-# IREE VectorExt Dialect
+# IREE `iree_vector_ext` Dialect
 
 The IREE `iree_vector_ext` dialect is a small codegen dialect for vector operations that IREE needs before those ideas are available, or convenient, in upstream MLIR's `vector` dialect. It is not a general replacement for `vector`. It is a staging area for IREE-specific vector layout, distributed-vector materialization, indexed gather/scatter transfers, and vectorized arg-reductions.
 

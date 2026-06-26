@@ -1,4 +1,4 @@
-# CIRCT Synth Dialect
+# CIRCT `synth` Dialect
 
 ## Beginner Summary
 

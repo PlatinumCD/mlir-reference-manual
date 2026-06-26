@@ -1,4 +1,4 @@
-# torch-mlir torch_c Dialect
+# torch-mlir `torch_c` Dialect
 
 The torch-mlir `torch_c` dialect is the TorchConversion dialect. It is a small bridge dialect used when torch-mlir moves from Torch types to backend-friendly MLIR types. Its name is short for "torch conversion"; the TableGen file notes that `torch_conversion` would be too verbose.
 

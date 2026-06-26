@@ -1,4 +1,4 @@
-# IREE CPU Dialect
+# IREE `iree_cpu` Dialect
 
 The IREE `iree_cpu` dialect is a CPU code generation support dialect. It does not model ordinary program computation with its own operation set. Instead, it gives IREE's CPU and VMVX lowering paths a precise way to attach CPU-specific lowering choices, packed-data layouts, matrix-multiply intrinsic choices, encoding resolvers, and microkernel providers to the rest of the compiler IR.
 

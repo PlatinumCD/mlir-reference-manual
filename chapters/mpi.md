@@ -1,4 +1,4 @@
-# MPI Dialect
+# `mpi` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# torch-mlir Torch Dialect
+# torch-mlir `torch` Dialect
 
 The torch-mlir `torch` dialect is the main bridge between PyTorch programs and MLIR. It represents PyTorch's TorchScript-level semantics inside MLIR so that a PyTorch model can be analyzed, normalized, and lowered using MLIR passes.
 

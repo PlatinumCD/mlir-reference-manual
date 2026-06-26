@@ -1,4 +1,4 @@
-# CIRCT Seq Dialect
+# CIRCT `seq` Dialect
 
 The CIRCT `seq` dialect models digital sequential logic. In hardware terms, it is where CIRCT represents state, clocks, registers, FIFOs, memories, and initialization values before those constructs are lowered to SystemVerilog or to another hardware-oriented backend.
 

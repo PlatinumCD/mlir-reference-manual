@@ -1,4 +1,4 @@
-# Arith Dialect
+# `arith` Dialect
 
 ## Beginner Summary
 

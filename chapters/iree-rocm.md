@@ -1,4 +1,4 @@
-# IREE rocm Dialect
+# IREE `rocm` Dialect
 
 The IREE `rocm` dialect is the AMD GPU target-support dialect used by IREE's ROCM backend. It is not a general-purpose tensor dialect, and it is not where most computation is written. Instead, it gives the ROCM target backend a place to store AMD-specific code generation metadata, embedded tuning modules, specialization patterns, and microkernel providers.
 

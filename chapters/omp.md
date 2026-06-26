@@ -1,4 +1,4 @@
-# OpenMP Dialect
+# `omp` Dialect
 
 ## Beginner Summary
 

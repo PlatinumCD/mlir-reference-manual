@@ -1,4 +1,4 @@
-# SMT Dialect
+# `smt` Dialect
 
 ## Beginner Summary
 

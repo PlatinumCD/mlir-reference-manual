@@ -1,4 +1,4 @@
-# MLProgram Dialect
+# `ml_program` Dialect
 
 ## Beginner Summary
 

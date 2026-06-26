@@ -1,4 +1,4 @@
-# CIRCT ESI Dialect
+# CIRCT `esi` Dialect
 
 The CIRCT `esi` dialect is the Elastic Silicon Interconnect dialect. It is about communication in hardware systems: typed channels, channel bundles, services, host connectivity, metadata manifests, and lowering those abstractions to concrete HW and SystemVerilog structures.
 

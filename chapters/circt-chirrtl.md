@@ -1,4 +1,4 @@
-# CIRCT CHIRRTL Dialect
+# CIRCT `chirrtl` Dialect
 
 ## Beginner Summary
 

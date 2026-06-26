@@ -1,4 +1,4 @@
-# NVGPU Dialect
+# `nvgpu` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# PDLInterp Dialect
+# `pdl_interp` Dialect
 
 ## Beginner Summary
 

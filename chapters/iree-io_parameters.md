@@ -1,4 +1,4 @@
-# IREE IO Parameters Dialect
+# IREE `io_parameters` Dialect
 
 The `io_parameters` dialect is an IREE module dialect for external parameter
 resource management. It represents runtime reads and writes of parameter data,

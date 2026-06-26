@@ -1,4 +1,4 @@
-# SCF Dialect
+# `scf` Dialect
 
 ## Beginner Summary
 

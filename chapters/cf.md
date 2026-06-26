@@ -1,4 +1,4 @@
-# ControlFlow Dialect
+# `cf` Dialect
 
 ## Beginner Summary
 

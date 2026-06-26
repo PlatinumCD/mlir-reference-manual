@@ -1,4 +1,4 @@
-# ONNX-MLIR zlow Dialect
+# ONNX-MLIR `zlow` Dialect
 
 The `zlow` dialect is ONNX-MLIR's low level dialect for IBM Z Neural Network Processing Assist, usually abbreviated NNPA. In the ONNX-MLIR stack, a model starts in ONNX dialect, eligible operations are moved into the NNPA-oriented `zhigh` dialect, and then `zhigh` is lowered to `zlow`. After that, `zlow` is lowered through LLVM-facing code that calls the zDNN runtime.
 

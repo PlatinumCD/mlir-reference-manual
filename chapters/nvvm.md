@@ -1,4 +1,4 @@
-# NVVM Dialect
+# `nvvm` Dialect
 
 ## Beginner Summary
 

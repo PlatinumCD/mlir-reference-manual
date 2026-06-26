@@ -1,4 +1,4 @@
-# IREE VM Dialect
+# IREE `vm` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# IREE hal Dialect
+# IREE `hal` Dialect
 
 The IREE `hal` dialect models the Hardware Abstraction Layer used by IREE to talk to devices, queues, buffers, command buffers, executable binaries, synchronization objects, and runtime configuration. The dialect description calls it a Vulkan-like model with the graphics parts removed. That is a good beginner mental model: HAL is the compiler IR for "how this program will use a device" rather than "what tensor algebra does this model compute."
 

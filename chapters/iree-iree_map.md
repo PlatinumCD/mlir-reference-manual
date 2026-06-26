@@ -1,4 +1,4 @@
-# IREE iree_map Dialect
+# IREE `iree_map` Dialect
 
 The IREE `iree_map` dialect is a small code generation dialect for map algebra. Unlike most MLIR dialects in this book, it does not define ordinary operations. Its public surface is made of attributes that describe hierarchical coordinate mappings. Those attributes are then used by IREE vector layout and GPU distribution code to decide which data coordinates are owned by which thread and which values remain local inside each thread.
 

@@ -1,4 +1,4 @@
-# torch-mlir TMTensor Dialect
+# torch-mlir `tm_tensor` Dialect
 
 The torch-mlir `tm_tensor` dialect is a temporary tensor computation dialect used inside torch-mlir. The `tm` stands for torch-mlir. It holds tensor operations that are common and useful, but that do not yet have a good direct representation in upstream MLIR dialects.
 

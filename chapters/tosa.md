@@ -1,4 +1,4 @@
-# TOSA Dialect
+# `tosa` Dialect
 
 ## Beginner Summary
 

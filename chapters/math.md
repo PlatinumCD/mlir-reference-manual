@@ -1,4 +1,4 @@
-# Math Dialect
+# `math` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# Linalg Dialect
+# `linalg` Dialect
 
 ## Beginner Summary
 

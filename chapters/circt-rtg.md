@@ -1,4 +1,4 @@
-# CIRCT RTG Dialect
+# CIRCT `rtg` Dialect
 
 The CIRCT `rtg` dialect is a Random Test Generation dialect. It describes tests, targets, reusable instruction sequences, random choices, virtual registers, memory resources, validation hooks, and ISA-assembly-oriented output. It is useful when a compiler or verification flow wants to generate many legal test programs from a compact randomized specification.
 

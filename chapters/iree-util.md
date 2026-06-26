@@ -1,4 +1,4 @@
-# IREE Util Dialect
+# IREE `util` Dialect
 
 The IREE `util` dialect is the common support dialect used across IREE's compiler pipeline. It provides shared types, attributes, structural operations, globals, lists, byte buffers, compiler hints, and runtime-facing utility operations that other IREE dialects build on.
 

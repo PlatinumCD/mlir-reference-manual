@@ -1,4 +1,4 @@
-# CIRCT Handshake Dialect
+# CIRCT `handshake` Dialect
 
 The CIRCT `handshake` dialect is a dataflow hardware dialect. It models a program as a network of independent actors that communicate by passing tokens over FIFO-like channels. Instead of saying "execute this block, then this block" in a normal control-flow style, Handshake asks a hardware-oriented question: which operation can fire as soon as its inputs are ready, and where does the result token go next?
 

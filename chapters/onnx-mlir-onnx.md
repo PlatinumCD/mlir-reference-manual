@@ -1,4 +1,4 @@
-# ONNX-MLIR ONNX Dialect
+# ONNX-MLIR `onnx` Dialect
 
 ## Beginner Summary
 

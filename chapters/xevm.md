@@ -1,4 +1,4 @@
-# XeVM Dialect
+# `xevm` Dialect
 
 ## Beginner Summary
 

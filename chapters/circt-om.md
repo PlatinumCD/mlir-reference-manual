@@ -1,4 +1,4 @@
-# CIRCT om Dialect
+# CIRCT `om` Dialect
 
 The CIRCT `om` dialect is the Object Model dialect. It is used to capture design intent and domain-model information around a hardware design, rather than the RTL behavior itself. If `hw`, `comb`, `seq`, and `sv` describe modules, signals, logic, registers, and emitted SystemVerilog, then `om` describes typed metadata and object relationships that tools can query later.
 

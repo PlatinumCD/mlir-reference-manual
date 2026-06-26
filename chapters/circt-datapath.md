@@ -1,4 +1,4 @@
-# CIRCT Datapath Dialect
+# CIRCT `datapath` Dialect
 
 The CIRCT `datapath` dialect models arithmetic datapath structures used during hardware synthesis. It is about how to build efficient arithmetic circuits, not just what arithmetic result should be computed.
 

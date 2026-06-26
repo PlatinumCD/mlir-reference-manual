@@ -1,4 +1,4 @@
-# CIRCT Debug Dialect
+# CIRCT `dbg` Dialect
 
 The CIRCT `dbg` dialect represents source-language debug information as MLIR operations. It lets CIRCT carry names, scopes, source aggregates, source-language type annotations, and enum interpretations alongside the hardware IR being optimized and lowered.
 

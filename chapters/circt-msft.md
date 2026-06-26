@@ -1,4 +1,4 @@
-# CIRCT MSFT Dialect
+# CIRCT `msft` Dialect
 
 The CIRCT `msft` dialect is a Microsoft support dialect inside CIRCT. It is an umbrella for hardware constructs and physical-design annotations that are useful to Microsoft flows but have not necessarily been generalized into a public, stable CIRCT dialect.
 

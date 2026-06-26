@@ -1,4 +1,4 @@
-# WasmSSA Dialect
+# `wasmssa` Dialect
 
 ## Beginner Summary
 

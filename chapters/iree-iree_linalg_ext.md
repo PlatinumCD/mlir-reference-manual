@@ -1,4 +1,4 @@
-# IREE LinalgExt Dialect
+# IREE `iree_linalg_ext` Dialect
 
 The IREE `iree_linalg_ext` dialect contains extensions around MLIR's `linalg` dialect. It is used for operations that IREE wants to tile, fuse, distribute, bufferize, and lower like structured tensor computations, but that are not represented directly or conveniently by upstream `linalg` operations.
 

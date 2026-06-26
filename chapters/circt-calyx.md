@@ -1,4 +1,4 @@
-# CIRCT Calyx Dialect
+# CIRCT `calyx` Dialect
 
 The CIRCT `calyx` dialect models the Calyx intermediate language inside MLIR. Calyx is an intermediate language for hardware accelerator compilers. Its central idea is to combine a structural hardware language with a software-like control language.
 

@@ -1,4 +1,4 @@
-# CIRCT sim Dialect
+# CIRCT `sim` Dialect
 
 The CIRCT `sim` dialect models simulator-specific behavior in hardware IR. It gives CIRCT a high-level representation for things that interact with Verilog and SystemVerilog simulators: command-line plusargs, DPI-C calls, formatted printing, dynamic strings, queues, output streams, file I/O, simulation termination, pauses, and clock-triggered procedural regions.
 

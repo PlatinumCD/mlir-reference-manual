@@ -1,4 +1,4 @@
-# CIRCT interop Dialect
+# CIRCT `interop` Dialect
 
 The CIRCT `interop` dialect represents partially lowered interoperability layers between CIRCT backends, external simulators, generated C or C++ code, and other tools. Its job is to avoid custom pairwise glue for every combination of tool and backend. Instead, an instance-side lowering can describe "this external thing needs persistent state, initialization, update, and cleanup" in a common form, and a container-side lowering can decide how to embed that into the surrounding target.
 

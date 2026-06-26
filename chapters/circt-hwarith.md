@@ -1,4 +1,4 @@
-# CIRCT HWArith Dialect
+# CIRCT `hwarith` Dialect
 
 The CIRCT `hwarith` dialect models bitwidth-aware integer arithmetic for hardware frontends. Its main purpose is to make arithmetic signedness and result-width inference explicit before the design is lowered into CIRCT's lower-level hardware dialects.
 

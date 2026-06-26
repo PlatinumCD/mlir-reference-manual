@@ -1,4 +1,4 @@
-# EmitC Dialect
+# `emitc` Dialect
 
 ## Beginner Summary
 

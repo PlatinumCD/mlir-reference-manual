@@ -1,4 +1,4 @@
-# StableHLO VHLO Dialect
+# StableHLO `vhlo` Dialect
 
 The StableHLO `vhlo` dialect is Versioned StableHLO. It exists to make StableHLO portable across time.
 

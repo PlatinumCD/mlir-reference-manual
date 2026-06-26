@@ -1,4 +1,4 @@
-# Intel IMEX NDArray Dialect
+# Intel IMEX `ndarray` Dialect
 
 The Intel IMEX `ndarray` dialect is a high-level array dialect for Python-like and NumPy-like tensor programming. Its purpose is to keep array semantics visible in MLIR long enough for the compiler to reason about mutation, views, device placement, and distributed placement before lowering into `linalg`, `tensor`, `memref`, `bufferization`, Region, and runtime-oriented dialects.
 

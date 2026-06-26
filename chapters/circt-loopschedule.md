@@ -1,4 +1,4 @@
-# CIRCT LoopSchedule Dialect
+# CIRCT `loopschedule` Dialect
 
 The `loopschedule` dialect is a CIRCT dialect for representing loops after a
 scheduler has assigned operations to cycles. It sits between software-like loop

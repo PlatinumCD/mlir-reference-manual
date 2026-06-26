@@ -1,4 +1,4 @@
-# Intel IMEX gpux Dialect
+# Intel IMEX `gpux` Dialect
 
 The Intel IMEX `gpux` dialect extends MLIR's upstream `gpu` dialect with explicit device, context, and stream handles. It exists because the upstream `gpu` dialect can describe GPU allocation, copies, memset, waits, and kernel launches, but it does not expose a first-class stream argument on those operations. GPUX makes the stream visible in IR.
 

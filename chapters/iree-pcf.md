@@ -1,4 +1,4 @@
-# IREE PCF Dialect
+# IREE `pcf` Dialect
 
 ## Beginner Summary
 

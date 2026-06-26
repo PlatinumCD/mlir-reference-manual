@@ -1,4 +1,4 @@
-# IREE Encoding Dialect
+# IREE `iree_encoding` Dialect
 
 The IREE `iree_encoding` dialect represents tensor layout intent. It is small in operation count but important in meaning: it lets IREE say that a tensor should be interpreted, tiled, padded, packed, or specialized in a particular way without changing the tensor's logical rank or shape.
 

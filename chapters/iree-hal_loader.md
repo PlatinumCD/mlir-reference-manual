@@ -1,4 +1,4 @@
-# IREE HAL Loader Dialect
+# IREE `hal_loader` Dialect
 
 The IREE `hal_loader` dialect is a low-level compiler dialect for dynamically loading executable binaries and dispatching work through IREE's inline HAL loader runtime module.
 

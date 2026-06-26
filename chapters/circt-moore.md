@@ -1,4 +1,4 @@
-# CIRCT Moore Dialect
+# CIRCT `moore` Dialect
 
 The CIRCT `moore` dialect represents SystemVerilog after parsing, type checking, and elaboration. It is an ingestion dialect: its job is to faithfully preserve SystemVerilog constructs in MLIR before CIRCT simplifies, analyzes, and lowers them to smaller core dialects.
 

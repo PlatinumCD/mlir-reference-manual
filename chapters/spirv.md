@@ -1,4 +1,4 @@
-# SPIR-V Dialect
+# `spirv` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# CIRCT Pipeline Dialect
+# CIRCT `pipeline` Dialect
 
 ## Beginner Summary
 

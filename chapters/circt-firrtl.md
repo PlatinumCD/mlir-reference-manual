@@ -1,4 +1,4 @@
-# CIRCT FIRRTL Dialect
+# CIRCT `firrtl` Dialect
 
 The CIRCT `firrtl` dialect models FIRRTL, the intermediate representation used by Chisel-based hardware flows before Verilog emission. FIRRTL stands for Flexible Intermediate Representation for RTL. In practical terms, this dialect is where CIRCT represents Chisel-style modules, wires, registers, memories, aggregate types, annotations, reset inference, width inference, last-connect semantics, layers, probes, and many compatibility details from the original Scala FIRRTL Compiler.
 

@@ -1,4 +1,4 @@
-# IREE GPU Dialect
+# IREE `iree_gpu` Dialect
 
 The `iree_gpu` dialect is part of IREE's compiler code generation layer. It is
 not a general-purpose GPU programming dialect like MLIR's upstream `gpu`

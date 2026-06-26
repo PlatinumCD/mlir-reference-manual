@@ -1,4 +1,4 @@
-# CIRCT LLHD Dialect
+# CIRCT `llhd` Dialect
 
 The CIRCT `llhd` dialect is a low-level hardware description dialect for event-based simulation and for lowering procedural hardware descriptions toward structural hardware.
 

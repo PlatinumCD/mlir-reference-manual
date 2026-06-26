@@ -1,4 +1,4 @@
-# PDL Dialect
+# `pdl` Dialect
 
 ## Beginner Summary
 

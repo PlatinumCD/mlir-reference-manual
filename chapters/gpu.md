@@ -1,4 +1,4 @@
-# GPU Dialect
+# `gpu` Dialect
 
 ## Beginner Summary
 

@@ -1,4 +1,4 @@
-# StableHLO CHLO Dialect
+# StableHLO `chlo` Dialect
 
 ## Beginner Summary
 

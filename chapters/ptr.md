@@ -1,4 +1,4 @@
-# Ptr Dialect
+# `ptr` Dialect
 
 ## Beginner Summary
 

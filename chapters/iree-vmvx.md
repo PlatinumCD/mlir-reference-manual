@@ -1,4 +1,4 @@
-# IREE VMVX Dialect
+# IREE `vmvx` Dialect
 
 ## Beginner Summary
 

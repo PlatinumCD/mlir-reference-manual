@@ -1,4 +1,4 @@
-# CIRCT DC Dialect
+# CIRCT `dc` Dialect
 
 The CIRCT `dc` dialect is the Dynamic Control dialect. It represents latency-insensitive control flow using tokens and FIFO-like channel semantics, while keeping data values separate unless data is needed to steer control.
 

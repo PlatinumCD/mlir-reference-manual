@@ -1,4 +1,4 @@
-# CIRCT comb Dialect
+# CIRCT `comb` Dialect
 
 The `comb` dialect is CIRCT's generic dialect for combinational hardware logic. It is meant to describe pure logic between state elements, module ports, memories, or other hardware structures. It is usually seen together with CIRCT's `hw`, `sv`, `seq`, `synth`, `datapath`, and verification dialects.
 

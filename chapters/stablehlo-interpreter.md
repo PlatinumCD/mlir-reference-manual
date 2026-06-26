@@ -1,4 +1,4 @@
-# StableHLO interpreter Dialect
+# StableHLO `interpreter` Dialect
 
 The StableHLO `interpreter` dialect contains operations that support the StableHLO reference interpreter. It is not part of the StableHLO spec itself. Instead, it provides interpreter-only functionality for running multi-process test programs, printing runtime tensors, and recording intermediate tensor values.
 

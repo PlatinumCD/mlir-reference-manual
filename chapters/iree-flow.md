@@ -1,4 +1,4 @@
-# IREE Flow Dialect
+# IREE `flow` Dialect
 
 The IREE `flow` dialect is the compiler layer where high-level tensor programs become explicit units of executable work. It is not a source language dialect like Torch or StableHLO, and it is not yet the low-level runtime dialect. Instead, it is the middle layer that says: these tensor operations belong together, this is the data that crosses the boundary, this is the symbolic workload, and this is the executable entry point that later compiler phases will schedule and allocate.
 

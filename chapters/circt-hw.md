@@ -1,4 +1,4 @@
-# CIRCT HW Dialect
+# CIRCT `hw` Dialect
 
 The CIRCT `hw` dialect is the common structural hardware dialect. It represents modules, ports, instances, hierarchy, constants, wires, aggregate hardware values, parameters, and hardware-specific types. It is the backbone that many other CIRCT dialects use when they need to describe a hardware design without committing to a single frontend language.
 

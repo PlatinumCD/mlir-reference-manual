@@ -1,4 +1,4 @@
-# CIRCT emit Dialect
+# CIRCT `emit` Dialect
 
 The CIRCT `emit` dialect models the structure of files emitted by CIRCT. It is not a hardware behavior dialect. Instead, it tells the export layer how to organize output files, file lists, opaque text, and fragments that should be inserted before other emitted operations.
 
