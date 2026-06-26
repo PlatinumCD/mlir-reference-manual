@@ -1,5 +1,7 @@
 # MLIR Reference Manual
 
+[**MLIR Reference Manual**](https://www.cameronfdurbin.com/mlir-reference-manual/)
+
 A beginner-focused Quarto book about MLIR dialects, operations,
 transformations, conversions, and their roles in compiler pipelines.
 
