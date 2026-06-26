@@ -10,153 +10,153 @@ book:
   page-navigation: true
   chapters:
     - index.qmd
-    - introduction.md
-    - what-is-mlir.md
+    - chapters/introduction.md
+    - chapters/what-is-mlir.md
     - part: "Core IR Structure"
       chapters:
-        - builtin.md
-        - func.md
-        - cf.md
-        - scf.md
-        - index-dialect.md
+        - chapters/builtin.md
+        - chapters/func.md
+        - chapters/cf.md
+        - chapters/scf.md
+        - chapters/index-dialect.md
     - part: "Basic Computation"
       chapters:
-        - arith.md
-        - math.md
-        - complex.md
-        - ub.md
+        - chapters/arith.md
+        - chapters/math.md
+        - chapters/complex.md
+        - chapters/ub.md
     - part: "Tensor, Shape, and Memory"
       chapters:
-        - tensor.md
-        - memref.md
-        - bufferization.md
-        - shape.md
-        - sparse_tensor.md
-        - quant.md
-        - ptr.md
-        - dlti.md
+        - chapters/tensor.md
+        - chapters/memref.md
+        - chapters/bufferization.md
+        - chapters/shape.md
+        - chapters/sparse_tensor.md
+        - chapters/quant.md
+        - chapters/ptr.md
+        - chapters/dlti.md
     - part: "Structured Computation and Optimization"
       chapters:
-        - affine.md
-        - linalg.md
-        - vector.md
+        - chapters/affine.md
+        - chapters/linalg.md
+        - chapters/vector.md
     - part: "ML and Model-Level IR"
       chapters:
-        - tosa.md
-        - ml_program.md
+        - chapters/tosa.md
+        - chapters/ml_program.md
     - part: "Parallelism, Accelerators, and Distributed Compute"
       chapters:
-        - async.md
-        - gpu.md
-        - acc.md
-        - omp.md
-        - mpi.md
-        - shard.md
+        - chapters/async.md
+        - chapters/gpu.md
+        - chapters/acc.md
+        - chapters/omp.md
+        - chapters/mpi.md
+        - chapters/shard.md
     - part: "Rewrite, Transform, and Metaprogramming"
       chapters:
-        - transform.md
-        - pdl.md
-        - pdl_interp.md
-        - irdl.md
-        - smt.md
+        - chapters/transform.md
+        - chapters/pdl.md
+        - chapters/pdl_interp.md
+        - chapters/irdl.md
+        - chapters/smt.md
     - part: "Target and Lowering Dialects"
       chapters:
-        - llvm.md
-        - spirv.md
-        - emitc.md
-        - wasmssa.md
+        - chapters/llvm.md
+        - chapters/spirv.md
+        - chapters/emitc.md
+        - chapters/wasmssa.md
     - part: "GPU Vendor and Hardware Dialects"
       chapters:
-        - nvgpu.md
-        - nvvm.md
-        - amdgpu.md
-        - rocdl.md
-        - xegpu.md
-        - xevm.md
+        - chapters/nvgpu.md
+        - chapters/nvvm.md
+        - chapters/amdgpu.md
+        - chapters/rocdl.md
+        - chapters/xegpu.md
+        - chapters/xevm.md
     - part: "CPU and Architecture-Specific Dialects"
       chapters:
-        - x86.md
-        - arm_neon.md
-        - arm_sve.md
-        - arm_sme.md
+        - chapters/x86.md
+        - chapters/arm_neon.md
+        - chapters/arm_sve.md
+        - chapters/arm_sme.md
     - part: "Third-Party MLIR Ecosystem"
       chapters:
-        - external-ecosystem.md
+        - chapters/external-ecosystem.md
     - part: "Frontend and Model Dialects"
       chapters:
-        - onnx-mlir-onnx.md
-        - onnx-mlir-krnl.md
-        - onnx-mlir-zhigh.md
-        - onnx-mlir-zlow.md
-        - torch-mlir-torch.md
-        - torch-mlir-torch_c.md
-        - torch-mlir-tm_tensor.md
-        - stablehlo-stablehlo.md
-        - stablehlo-chlo.md
-        - stablehlo-vhlo.md
-        - stablehlo-interpreter.md
+        - chapters/onnx-mlir-onnx.md
+        - chapters/onnx-mlir-krnl.md
+        - chapters/onnx-mlir-zhigh.md
+        - chapters/onnx-mlir-zlow.md
+        - chapters/torch-mlir-torch.md
+        - chapters/torch-mlir-torch_c.md
+        - chapters/torch-mlir-tm_tensor.md
+        - chapters/stablehlo-stablehlo.md
+        - chapters/stablehlo-chlo.md
+        - chapters/stablehlo-vhlo.md
+        - chapters/stablehlo-interpreter.md
     - part: "IREE Compiler and Runtime Dialects"
       chapters:
-        - iree-flow.md
-        - iree-stream.md
-        - iree-hal.md
-        - iree-vm.md
-        - iree-util.md
-        - iree-iree_codegen.md
-        - iree-iree_gpu.md
-        - iree-iree_cpu.md
-        - iree-iree_encoding.md
-        - iree-iree_linalg_ext.md
-        - iree-iree_tensor_ext.md
-        - iree-iree_vector_ext.md
-        - iree-iree_map.md
-        - iree-rocm.md
-        - iree-vmvx.md
-        - iree-pcf.md
-        - iree-check.md
-        - iree-hal_inline.md
-        - iree-hal_loader.md
-        - iree-io_parameters.md
+        - chapters/iree-flow.md
+        - chapters/iree-stream.md
+        - chapters/iree-hal.md
+        - chapters/iree-vm.md
+        - chapters/iree-util.md
+        - chapters/iree-iree_codegen.md
+        - chapters/iree-iree_gpu.md
+        - chapters/iree-iree_cpu.md
+        - chapters/iree-iree_encoding.md
+        - chapters/iree-iree_linalg_ext.md
+        - chapters/iree-iree_tensor_ext.md
+        - chapters/iree-iree_vector_ext.md
+        - chapters/iree-iree_map.md
+        - chapters/iree-rocm.md
+        - chapters/iree-vmvx.md
+        - chapters/iree-pcf.md
+        - chapters/iree-check.md
+        - chapters/iree-hal_inline.md
+        - chapters/iree-hal_loader.md
+        - chapters/iree-io_parameters.md
     - part: "Hardware and Circuit Dialects"
       chapters:
-        - circt-hw.md
-        - circt-comb.md
-        - circt-seq.md
-        - circt-sv.md
-        - circt-firrtl.md
-        - circt-chirrtl.md
-        - circt-moore.md
-        - circt-llhd.md
-        - circt-calyx.md
-        - circt-handshake.md
-        - circt-pipeline.md
-        - circt-datapath.md
-        - circt-fsm.md
-        - circt-verif.md
-        - circt-sim.md
-        - circt-interop.md
-        - circt-systemc.md
-        - circt-esi.md
-        - circt-msft.md
-        - circt-om.md
-        - circt-dc.md
-        - circt-dbg.md
-        - circt-arc.md
-        - circt-ltl.md
-        - circt-rtg.md
-        - circt-ssp.md
-        - circt-synth.md
-        - circt-emit.md
-        - circt-hwarith.md
-        - circt-kanagawa.md
-        - circt-loopschedule.md
+        - chapters/circt-hw.md
+        - chapters/circt-comb.md
+        - chapters/circt-seq.md
+        - chapters/circt-sv.md
+        - chapters/circt-firrtl.md
+        - chapters/circt-chirrtl.md
+        - chapters/circt-moore.md
+        - chapters/circt-llhd.md
+        - chapters/circt-calyx.md
+        - chapters/circt-handshake.md
+        - chapters/circt-pipeline.md
+        - chapters/circt-datapath.md
+        - chapters/circt-fsm.md
+        - chapters/circt-verif.md
+        - chapters/circt-sim.md
+        - chapters/circt-interop.md
+        - chapters/circt-systemc.md
+        - chapters/circt-esi.md
+        - chapters/circt-msft.md
+        - chapters/circt-om.md
+        - chapters/circt-dc.md
+        - chapters/circt-dbg.md
+        - chapters/circt-arc.md
+        - chapters/circt-ltl.md
+        - chapters/circt-rtg.md
+        - chapters/circt-ssp.md
+        - chapters/circt-synth.md
+        - chapters/circt-emit.md
+        - chapters/circt-hwarith.md
+        - chapters/circt-kanagawa.md
+        - chapters/circt-loopschedule.md
     - part: "Array, Data-Centric, and HPC Extensions"
       chapters:
-        - imex-ndarray.md
-        - imex-region.md
-        - imex-distruntime.md
-        - imex-gpux.md
-        - mlir-dace-sdfg.md
+        - chapters/imex-ndarray.md
+        - chapters/imex-region.md
+        - chapters/imex-distruntime.md
+        - chapters/imex-gpux.md
+        - chapters/mlir-dace-sdfg.md
 
 format:
   html:

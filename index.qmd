@@ -1,6 +1,6 @@
 # About
 
-**GitHub:** https://github.com/PlatinumCD/mlir-reference-manual
+**GitHub:** [PlatinumCD/mlir-reference-manual](https://github.com/PlatinumCD/mlir-reference-manual)
 
 This manual is a beginner-focused guide to MLIR dialects, operations,
 transformations, conversions, and their roles in compiler pipelines. It is
@@ -17,6 +17,7 @@ dialect exists and how it participates in real compiler pipelines.
 ## About the Author
 
 **Name:** Cameron Durbin
+
 **Email:** cfd@uoregon.edu
 
 I'm a 4th-year PhD candidate at the **University of Oregon** studying
@@ -37,7 +38,7 @@ tests in the source repository.
 
 ## Reading Path
 
-1. Start with [Introduction](introduction.md) and [What Is MLIR?](what-is-mlir.md).
+1. Start with [Introduction](chapters/introduction.md) and [What Is MLIR?](chapters/what-is-mlir.md).
 2. Learn core IR structure: `builtin`, `func`, `cf`, `scf`, and `index`.
 3. Read basic computation: `arith`, `math`, `complex`, and `ub`.
 4. Move into tensor, shape, and memory modeling: `tensor`, `memref`,
@@ -51,9 +52,7 @@ tests in the source repository.
    `pdl_interp`, `irdl`, and `smt`.
 9. Follow target and architecture-specific lowering: `llvm`, `spirv`, `emitc`,
    `wasmssa`, GPU vendor dialects, and CPU architecture dialects.
-10. Read [The External MLIR Ecosystem](external-ecosystem.md) before entering
+10. Read [The External MLIR Ecosystem](chapters/external-ecosystem.md) before entering
     third-party dialects.
 11. Choose an ecosystem path: frontend/model dialects, IREE runtime compiler
     dialects, CIRCT hardware dialects, or array and data-centric extensions.
-
-
