@@ -20,6 +20,8 @@ dialect exists and how it participates in real compiler pipelines.
 
 **Email:** cfd@uoregon.edu
 
+**I am actively looking for MLIR work. I'm open to any opportunities. Please email me.**
+
 I'm a 4th-year PhD candidate at the **University of Oregon** studying
 compiler infrastructure, MLIR, and machine-learning systems. I'm actively
 looking for internships related to MLIR, compiler engineering, intermediate
